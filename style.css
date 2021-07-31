@@ -1,5 +1,6 @@
 body{
     font-family: 'Style Script', cursive;
+    margin: 0%;
 }
 
 .orange-text{
@@ -12,9 +13,10 @@ body{
     padding-left: 2%;
 }
 
-.top-banner{
+.flexible-container{
     display: flex;
     margin: 0px;
+    margin-bottom: 100px;
 
 }
 
@@ -24,4 +26,19 @@ body{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.hire_me_button{
+    text-decoration: none;
+    color: white;
+    background-color:orange;
+    font-weight: 500px; 
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-image: linear-gradient(orange , orangered);
+}
+/*middle place Css*/
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
