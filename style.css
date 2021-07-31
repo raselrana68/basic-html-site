@@ -42,3 +42,23 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.exp{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp-item{
+    width: 50%;
+    padding-left: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px rgb(0, 36, 5);
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.footer{
+    color: rgb(16, 94, 0);
+    text-align: center;
+    box-shadow: 10px 10px 40px rgb(0, 0, 0);
+}
