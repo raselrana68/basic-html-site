@@ -1,3 +1,27 @@
 body{
     font-family: 'Style Script', cursive;
 }
+
+.orange-text{
+    font-size: 70px;
+    color: olivedrab;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.top-banner{
+    display: flex;
+    margin: 0px;
+
+}
+
+.half-width img{
+    width: 70%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
